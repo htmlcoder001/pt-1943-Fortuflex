@@ -1,0 +1,225 @@
+
+/*block1*/
+.b1 > span {
+    text-transform: uppercase;
+    font-weight: 700;   
+    color:#fe1725;
+    padding: 0 0 10px 20px;
+    display: block;
+}
+.b1 > img {
+    display: block;
+}
+/*block2*/
+.b2 {
+    font-size: 14px;
+    padding: 0 20px;
+}
+.b2 img {
+    display: block;
+}
+.b2 > span {
+    color:#72808e;
+}
+.data {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+.post-data {
+    color:#aaa;
+}
+.post-share {
+}
+/*block3*/
+.article {
+   font-size: 19px;
+   padding-bottom: 0;
+}
+.article > img {
+   display: block;
+   margin: 0 auto 20px;
+}
+.article > p {
+   padding: 0 20px 20px;
+}
+.article > p a {
+    color: #1c55a3;
+}
+.article ol {
+   list-style-type: decimal;
+   list-style-position: outside;
+   padding: 0 0 20px 40px;
+}
+.article ol li {
+    padding-bottom: 20px;
+}
+.article {
+   
+}
+.article {
+   
+}
+.article {
+   
+}
+.article {
+   
+}
+
+/*block4*/
+.b4 {
+   
+}
+
+/*block5*/
+.b5 {
+   padding: 0 20px;
+}
+
+#comments {
+
+}
+#comments h2 {
+    margin-bottom: 35px;
+    padding: 10px 0 10px 30px;
+    color:#38434c;
+    font-size: 24px;
+    text-transform: none;
+    background: url(../images/tlt.png) no-repeat 0 center;
+
+}
+
+#comments .info {
+    position: relative;
+    padding-left: 40px;
+    min-height: 100px;
+    margin-bottom: 30px;
+}
+#comments .info > img {
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+#comments .coment_ava {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 24px;
+}
+#comments .coment_ava img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    border-radius: 3px;
+}
+
+#comments .name {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+}
+#comments .name .randdate {
+    font-weight: 400;
+}
+#comments .pg a {
+    color: #1c55a3;
+    text-decoration: underline;
+}
+#comments .pg a:hover {
+    text-decoration: none;
+}
+/*block6*/
+.b6 {
+   
+}
+
+ .btn-push {
+     position: relative;
+     top: 0px;
+     font-family: "Graphik";
+     text-decoration: none;
+     font-size: 25px;
+     background: #f7f7f7;
+     padding: 15px 50px;
+     margin: 0 10px;
+     border: 1px solid #c4c4c4;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     border-radius: 5px;
+     -webkit-box-shadow: 0px 5px 0px #c4c4c4;
+     -moz-box-shadow: 0px 5px 0px #c4c4c4;
+     -ms-box-shadow: 0px 5px 0px #c4c4c4;
+     -o-box-shadow: 0px 5px 0px #c4c4c4;
+     box-shadow: 0px 5px 0px #c4c4c4;
+     color: #222;
+     text-shadow: 1px 1px 1px #fff;
+     -webkit-transition: All 250ms ease;
+     -moz-transition: All 250ms ease;
+     -o-transition: All 250ms ease;
+     -ms-transition: All 250ms ease;
+     transition: All 250ms ease;
+   }
+   /*==========  Active State  ==========*/
+   .btn-push:active {
+     position: relative;
+     top: 5px;
+     -webkit-box-shadow: none !important;
+     -moz-box-shadow: none !important;
+     -ms-box-shadow: none !important;
+     -o-box-shadow: none !important;
+     box-shadow: none !important;
+     -webkit-transition: All 250ms ease;
+     -moz-transition: All 250ms ease;
+     -o-transition: All 250ms ease;
+     -ms-transition: All 250ms ease;
+     transition: All 250ms ease;
+   }
+ 
+ 
+   /*==========  Red  ==========*/
+   .btn-push.red {
+     background: #df4242;
+     color: #fff;
+     border: 1px solid #a01b1b;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     border-radius: 5px;
+     -webkit-box-shadow: 0px 5px 0px #a01b1b;
+     -moz-box-shadow: 0px 5px 0px #a01b1b;
+     -ms-box-shadow: 0px 5px 0px #a01b1b;
+     -o-box-shadow: 0px 5px 0px #a01b1b;
+     box-shadow: 0px 5px 0px #a01b1b;
+     text-shadow: 1px 1px 1px #a01b1b;
+   }
+
+.b6 .btn-push {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    text-align: center;
+ }
+/*block7*/
+.b7 {
+   padding: 0;
+}
+.b7 img{
+   display: block;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 40px 0 30px;
+    background: #ededed;
+    opacity: 0.6;
+}
+.footer a {
+    font-size: 12px;
+    color:#000;
+    display: block;
+    padding: 5px 0 0;
+}
